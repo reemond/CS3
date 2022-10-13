@@ -1,0 +1,11 @@
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+dd {
+    display: list-item;
+    list-style-type: circle;
+}
+a, li{
+    font-size: 18px;
+}
