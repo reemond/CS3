@@ -1,0 +1,35 @@
+h1{
+    font-family: Arial light;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 10px;
+    color: white;
+}
+html{
+    background-color: #36454F;
+}
+img{
+    padding-left: 50px;
+    padding-top: 0;
+}
+p{
+    color: white;
+    border: 1px solid;
+    position: absolute;
+    left: 770px;
+    bottom: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+button{
+    position: absolute;
+    left: 1125px;
+    bottom: 50px;   
+    background-color: #36454F;
+    padding: 5px 20px;
+    border-color: white;
+    color: white;
+}
