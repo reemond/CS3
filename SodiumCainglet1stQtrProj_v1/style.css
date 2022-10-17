@@ -1,0 +1,32 @@
+html{
+    background-color: #36454F;
+}
+h1{
+    font-family: courier new;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+img{
+    padding-left: 50px;
+    padding-top: 0;
+}
+p{
+    position: absolute;
+    left: 770px;
+    bottom: 200px;
+    padding: 10px 10px;
+    overflow: auto;
+    height: 100px;
+    width: 12cm;
+    text-indent: 30px;
+    color: white;
+}
+button{
+    position: absolute;
+    left: 1125px;
+    bottom: 50px;   
+}
