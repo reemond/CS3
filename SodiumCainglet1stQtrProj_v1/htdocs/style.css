@@ -1,0 +1,48 @@
+h2{
+    font-size: 50px;
+    position: absolute;
+    left: 700px;
+    bottom: 350px;
+    font-family: courier new;
+}
+img.a{
+    position: absolute;
+    left: 70px;
+    top: 120px;
+    object-fit: cover;
+    object-position: 50% 25%;
+}
+a.x{
+    font-family: times new roman;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    position: absolute;
+    left: 690px;
+    bottom: 120px;
+    overflow: auto;
+    height: 250px;
+    width: 13cm;
+    text-indent: 30px;
+}
+a.y{
+    font-family: times new roman;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    position: absolute;
+    left: 690px;
+    bottom: 10px;
+    overflow: auto;
+    height: 250px;
+    width: 13cm;
+    text-indent: 30px;
+}
+input.a{
+    position: absolute;
+    right: 1125px;
+    bottom: 50px;   
+}
+button.b{
+    position: absolute;
+    left: 1125px;
+    bottom: 50px;   
+}
