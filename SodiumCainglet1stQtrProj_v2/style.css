@@ -1,0 +1,43 @@
+html{
+    background-color: #36454F;
+}
+h1{
+    color: white;
+    font-family: courier new;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 10px;
+}
+
+img{
+    padding-left: 50px;
+    padding-top: 0;
+    object-fit: cover;
+    object-position: 60% 40%;
+}
+p{
+    color: white;
+    position: absolute;
+    left: 770px;
+    bottom: 200px;
+    padding: 10px 10px;
+    overflow: auto;
+    height: 100px;
+    width: 12cm;
+    text-indent: 30px;
+}
+button{
+    position: absolute;
+    left: 1125px;
+    bottom: 50px;   
+    background-color: #36454F;
+    border: 1px solid white;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button:hover{
+    background-color: #2b373f;
+    transition: 0.1s;
+}
