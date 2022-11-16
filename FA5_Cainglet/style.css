@@ -1,7 +1,6 @@
 body{
     text-align: center;
     border: 2px solid blue;
-    background-clip: content-box;
     margin-left: 12.5%;
     margin-right: 12.5%;
     width: 75%;
