@@ -72,7 +72,7 @@ nav a:active {
 	height: 50px;
 }
 .ig {
-	background-image: url(images/ig.png);
+	background-image: url(../images/ig.png);
 	width: 30px;
 	height: 30px;
 	position: absolute;
@@ -81,7 +81,7 @@ nav a:active {
 	transition: transform .25s;
 }
 .fb {
-	background-image: url(images/fb.png);
+	background-image: url(../images/fb.png);
 	width: 30px;
 	height: 30px;
 	position: absolute;
