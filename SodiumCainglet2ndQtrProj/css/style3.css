@@ -1,0 +1,157 @@
+body {
+	margin: 0px;
+
+}
+html {
+	background-color: #36454f;
+}
+nav {
+	background-color: #36454f;
+	overflow: hidden;
+}
+nav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: arial;
+}
+nav a:hover {
+	background-color: #303e47;
+	transition: .3s;
+	transition: 0.2s;
+	transform: scale(1.1);
+}
+nav a:active {
+	background-color: #2b3840;
+}
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: #f2f2f2;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: arial;
+	margin: 0;
+}
+.nav a:hover, .dropdown:hover .dropbtn {
+	background-color: #303e47;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #2b3840;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	float: none;
+	color: #f2f2f2;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #242f36;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+	transition: .3s;
+}
+.zoom {
+	width: 50px;
+	height: 50px;
+}
+.ig {
+	background-image: url(images/ig.png);
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 300px;
+	top: 10px;
+	transition: transform .25s;
+}
+.fb {
+	background-image: url(images/fb.png);
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 340px;
+	top: 10px;
+	transition: transform .25s;
+}
+.ig:hover {
+	transform: scale(1.1);
+}
+.fb:hover {
+	transform: scale(1.1);
+}
+.title {
+	text-align: center;
+	left: 700px;
+	top: 100px;
+	font-size: 50px;
+	color: antiquewhite;
+}
+article.x {
+	color: white;
+	font-family: times new roman;
+	letter-spacing: 1px;
+	padding: 10px 10px;
+	margin: auto;
+	overflow: auto;
+	height: auto;
+	width: 20cm;
+	text-indent: 0px;
+}
+.a {
+	color: #ff630e;
+}
+.b {
+	position: relative;
+	top: 310px;
+	left: 204px;
+	background-color: #36454F;
+	color: white;
+	border: none;
+	padding: 5px 5px 5px 5px;
+}
+.c {
+	position: relative;
+	left: 1025px;
+	top: 308px;
+	background-color: #36454F;
+	border: none;
+	color: white;
+	padding: 5px 5px 5px 5px;
+}
+button:hover {
+	background-color: #303e47;
+	transition: 0.2s;
+	transform: scale(1.1);
+}
+.img4 {
+	position: absolute;
+	bottom: 110px;
+	left: 450px;
+	border: 1px solid black;
+}
+.img5 {
+	position: absolute;
+	bottom: 80px;
+	left: 855px;
+	border: 1px solid black;
+}
+iframe {
+	position: absolute;
+	left: 410px;
+}
