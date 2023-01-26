@@ -1,49 +1,70 @@
+
 <!DOCTYPE html>
 <html>
 <head>
- <title>CS Practical</title>
- <link rel="stylesheet" type="text/css" href="css/style.css">
- <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alternative Assessment 2</title>
+<style>
+* {
+box-sizing: border-box;
+}
+p {
+margin:0;
+padding:0;
+}
+body {
+margin:0;
+padding:0;
+}
+#red {
+position:relative;
+top:200px;
+left:25%;
+border: 2px solid black;
+border-radius: 10px;
+background-color: white;
+color: red;
+display:inline-block;
+padding:50px;
+}
+#blue {
+position:relative;
+top:200px;
+left:40%;
+border: 2px solid black;
+border-radius: 10px;
+background-color: white;
+color: blue;
+display:inline-block;
+padding:50px;
+}
+#red:hover {
+    color: white;
+    background-color: red;
+    transform: scale(2)
+}
+#blue:hover {
+    color: white;
+    background-color: blue;
+    transform: scale(2)
+}
+#red:active {
+    font-size: 0px;
+    height: 100px;
+    width: 100px;
+    background: url('images/tile007.png') no-repeat red;
+    background-size: cover;
+}
+#blue:active {
+    font-size: 0px;
+    height: 100px;
+    width: 100px;
+    background: url('images/tile008.png')no-repeat blue;
+    background-size: cover;
+}
+</style>
 </head>
 <body>
- <h1>Noodles Flavor</h1>
- <div>
- <div class="section">
- <div class="article">
- <h2 id="chicken">Chicken</h2>
-<p>Lorem Ipsum is simply dummy text of the printing and
-typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-book. It has survived not only five centuries, but also the leap into electronic typesetting,
-remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-Aldus PageMaker including versions of Lorem Ipsum.
- </p>
- </div>
- </div>
- <div class="section">
- <div class="article">
- <h2 id="beef">Beef</h2>
-<p>Lorem Ipsum is simply dummy text of the printing and
-typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-book. It has survived not only five centuries, but also the leap into electronic typesetting,
-remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-Aldus PageMaker including versions of Lorem Ipsum.
- </p>
- </div>
- </div>
- <div class="section">
- <div class="article">
- <h2 id="pork">Pork</h2>
-<p>Lorem Ipsum is simply dummy text of the printing and
-typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-book. It has survived not only five centuries, but also the leap into electronic typesetting,
-remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-Aldus PageMaker including versions of Lorem Ipsum.
- </p>
- </div>
- </div>
+<div id="red"><center><p> RED </p></center> </div>
+<div id="blue"><center><p> BLUE </p></center></div>
+</body>
+</html>
