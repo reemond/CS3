@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,28 +37,34 @@ color: blue;
 display:inline-block;
 padding:50px;
 }
-#red:hover{
+#red:hover {
+    color: white;
     background-color: red;
+    transform: scale(2)
+}
+#blue:hover {
     color: white;
-    padding: 100px;
-}
-#red:active{
-    color: rgba(0, 0, 0, 0);
-    background: url(images/tile007.png) center no-repeat red;
-}
-#blue:hover{
     background-color: blue;
-    color: white;
-    padding: 100px;
+    transform: scale(2)
 }
-#blue:active{
-    color: rgba(0, 0, 0, 0);
-    background: url(images/tile008.png) center no-repeat blue;
+#red:active {
+    font-size: 0px;
+    height: 100px;
+    width: 100px;
+    background: url('images/tile007.png') no-repeat red;
+    background-size: cover;
+}
+#blue:active {
+    font-size: 0px;
+    height: 100px;
+    width: 100px;
+    background: url('images/tile008.png')no-repeat blue;
+    background-size: cover;
 }
 </style>
 </head>
 <body>
-<div id="red" > <p> RED </p> </div>
-<div id="blue" > <p> BLUE </p></div>
+<div id="red"><center><p> RED </p></center> </div>
+<div id="blue"><center><p> BLUE </p></center></div>
 </body>
 </html>
